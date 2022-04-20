@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3579888738925657537
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 454697814519862172}
+  - component: {fileID: 1295208142432689338}
+  m_Layer: 0
+  m_Name: GameCellTypes
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &454697814519862172
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3579888738925657537}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.4832548, y: -2.533372, z: -0.6853399}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1295208142432689338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3579888738925657537}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efd5a7ceab5140a8b189cf05a69da7bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  allCellTypes:
+  - cellImage: {fileID: 21300000, guid: d8655f3620c16f840ac7a83776060e56, type: 3}
+    highlightEffect: {fileID: 125964, guid: 879465c710faf26498c43fec1e4bbbcc, type: 3}
+    destroyEffect: {fileID: 6138884496408582003, guid: a0e120f20f27ede43a9629733f2914ab, type: 3}
+  - cellImage: {fileID: 21300000, guid: 5b55c0f339f80af4ba87a8132875afa4, type: 3}
+    highlightEffect: {fileID: 171420, guid: 3b7d09dab04c5884f8ee529f25a298fe, type: 3}
+    destroyEffect: {fileID: 3105154768699876682, guid: d729208f73117e640a61de64a734a53a, type: 3}
+  - cellImage: {fileID: 21300000, guid: 54d66f71d5acf0b4cb3d478927a18fc7, type: 3}
+    highlightEffect: {fileID: 109672, guid: 220a4e71c5c7a7a42a7fd23e246bff14, type: 3}
+    destroyEffect: {fileID: 3391861480771957413, guid: 79885226978b938489ab94d515f1acc7, type: 3}
+  - cellImage: {fileID: 21300000, guid: 21d0aecee98451c43a958dc9bd16ae72, type: 3}
+    highlightEffect: {fileID: 139178, guid: 6b3488aa97f1d514d8a4fa45cc3b2dad, type: 3}
+    destroyEffect: {fileID: 387594403099771044, guid: d481dc194dbbb2f41bb56ba7aa3c8ee6, type: 3}
+  obstacleCellType:
+    cellImage: {fileID: 21300000, guid: 0e5b44a6ba34b6a4fb2c915c705a7862, type: 3}
+    highlightEffect: {fileID: 0}
+    destroyEffect: {fileID: 0}
